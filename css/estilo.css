@@ -1,0 +1,134 @@
+body{
+  background-color: #D9EFFF;
+  font-family: roboto;
+}
+
+.contato{
+  margin-left: 1200px;
+}
+
+.navbar-nav{
+  margin-left: 25px;
+}
+
+.navbar-brand{
+  margin-left: 25px;
+}
+
+.lives{
+  margin-left: 144px;
+}
+
+.container{
+    margin: 20px;
+    width: auto;
+    height: 292px;
+}
+
+.live-display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lives1{
+  position: absolute;
+  left: 20px;
+  top: 319px;
+}
+.lives2{
+  position: absolute;
+  left: 495px;
+  top: 319px;
+}
+.lives3{
+  position: absolute;
+  left: 970px;
+  top: 319px;
+}
+.lives4{
+  position: absolute;
+  left: 1445px;
+  top: 319px;
+}
+
+.streamer1{
+  position: absolute;
+  left: 20px;
+  top: 319px;
+}
+.streamer2{
+  position: absolute;
+  left: 495px;
+  top: 319px;
+}
+.streamer3{
+  position: absolute;
+  left: 970px;
+  top: 319px;
+}
+.streamer4{
+  position: absolute;
+  left: 1445px;
+  top: 319px;
+}
+
+.streamer5{
+  position: absolute;
+  left: 20px;
+  top: 990px;
+}
+.streamer6{
+  position: absolute;
+  left: 495px;
+  top: 990px;
+}
+.streamer7{
+  position: absolute;
+  left: 970px;
+  top: 990px;
+}
+
+
+h2{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #3F8EFC;
+}
+
+.streamers{
+  position: absolute;
+  width: 450px;
+  height: 198px;
+
+  top: 750px;
+}
+.cards{
+  top: 1274px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
