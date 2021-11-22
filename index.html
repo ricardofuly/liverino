@@ -12,10 +12,10 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="img/logo.png" alt="Logo">
+          <img src="img/logo.png" alt="Logo" width="60px">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
@@ -25,11 +25,11 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Lives</a>
+            <li class="nav-item ">
+              <a class="nav-link disabled" href="#">Lives</a>
             </li>
-            <li class="nav-item d-flex">
-              <a class="nav-link" href="#">Discord</a>
+            <li class="nav-item" style="position:absolute;right:20px;">
+              <a class="nav-link disabled" href="#">Discord</a>
             </li>
           </ul>
         </div>
@@ -37,18 +37,24 @@
     </nav>
 
     <div class="container live-display">
-      <h2>STREAMERS AO VIVO</h2>
-      <div class="row">
-        <div class="g-col-4 lives1">
+      <div class="container-fluid">
+        <div class="row row-cols-1">
+          <div class="col-8">
+            <h2>STREAMERS AO VIVO</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col streamer1 ">
           <iframe src="https://player.twitch.tv/?channel=ricky_rj&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="292" width="450"></iframe>
         </div>
-        <div class="g-col-4 lives2">
+        <div class="col lives2">
           <iframe src="https://player.twitch.tv/?channel=o_chris&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="292" width="450"></iframe>
         </div>
-        <div class="g-col-4 lives3">
+        <div class="col lives3">
           <iframe src="https://player.twitch.tv/?channel=danimito1&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="292" width="450"></iframe>
         </div>
-        <div class="g-col-4 lives4">
+        <div class="col lives4">
           <iframe src="https://player.twitch.tv/?channel=hellequinm&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="292" width="450"></iframe>
         </div>
       </div>
