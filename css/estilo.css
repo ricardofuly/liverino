@@ -47,14 +47,14 @@ body{
   position: absolute;
   width: 450px;
   height: 292px;
-  left: 960px;
+  left: 950px;
   top: 319px;
 }
 .lives4{
   position: absolute;
   width: 450px;
   height: 292px;
-  left: 1435px;
+  left: 1415px;
   top: 319px;
 }
 
@@ -65,17 +65,17 @@ body{
 }
 .streamer2{
   position: absolute;
-  left: 495px;
+  left: 485px;
   top: 319px;
 }
 .streamer3{
   position: absolute;
-  left: 970px;
+  left: 960px;
   top: 319px;
 }
 .streamer4{
   position: absolute;
-  left: 1445px;
+  left: 1415px;
   top: 319px;
 }
 
@@ -86,12 +86,12 @@ body{
 }
 .streamer6{
   position: absolute;
-  left: 495px;
+  left: 485px;
   top: 990px;
 }
 .streamer7{
   position: absolute;
-  left: 970px;
+  left: 960px;
   top: 990px;
 }
 
