@@ -1,93 +1,270 @@
 <!DOCTYPE html>
 <html lang="pt_br" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
-    <title>Liverino</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <title>Liverino - Lives</title>
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.png" alt="Logo" width="90px">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#mynavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link active" href="#">Lives</a>
-            </li>
-            <li class="nav-item" style="position:absolute;right:20px;">
-              <a class="nav-link disabled" href="#">Discord</a>
-            </li>
-          </ul>
+    <header> <!-- inicio Cabecalho -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo" width="142">
+          </a>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active" href="lives.html">Lives</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-light ml-4" href="https://discord.gg/n5wk9xw">Discord</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header> <!--/fim Cabecalho -->
+
+    <section id="home"> <!--Inicio da seção home-->
+      <div class="conatiner">
+        <div class="wrap">
+
+        	<div class="box one">
+        		<div class="date">
+        			<h4>APEX LEGENDS</h4>
+        		</div>
+        		<h1>RICKY_RJ</h1>
+        		<div class="poster p1">
+              <a href="https://www.twitch.tv/ricky_rj" class="stretched-link">
+                <img src="img/eu.jpg" alt="">
+              </a>
+        		</div>
+        	</div>
+
+        	<div class="box two">
+        		<div class="date">
+        			<h4>DEAD BY DAYLIGHT</h4>
+        		</div>
+        		<H1>DANIMITO1</H1>
+        		<div class="poster p2">
+              <a href="#" class="stretched-link">
+                <img src="img/danimito.png" alt="">
+              </a>
+        		</div>
+        	</div>
+
+        	<div class="box three">
+        		<div class="date">
+        			<h4>PUBG</h4>
+        		</div>
+        		<h1>O_Chris</h1>
+        		<div class="poster p3">
+              <a href="#" class="stretched-link">
+                <img src="img/chris.png" alt="">
+              </a>
+        		</div>
+        	</div>
+
+        	<div class="box five">
+        		<div class="date">
+        			<h4>GUILD WARS 2</h4>
+        		</div>
+        		<h1>HELLEQUINM</h1>
+        		<div class="poster p4">
+              <a href="#" class="stretched-link">
+                <img src="img/helle.jpg" alt="">
+              </a>
+        		</div>
+        	</div>
+
+        	<div class="box six">
+        		<div class="date">
+        			<h4>PALADINS</h4>
+        		</div>
+        		<h1>POLAROIDF</h1>
+        		<div class="poster p5">
+              <a href="https://www.twitch.tv/polaroidf" class="stretched-link">
+                <img src="img/polar.png" alt="">
+              </a>
+        		</div>
+        	</div>
         </div>
       </div>
-    </nav>
+    </section> <!--Fim da seção home-->
 
-  <section>
-    <div class="row">
-      <div class="col-md-4">
-    		    <div class="card profile-card-3">
-    		        <div class="background-block">
-    		            <img src="img/ricky-bg.jpg" alt="profile-sample1" class="background"/>
-    		        </div>
-    		        <div class="profile-thumb-block">
-    		            <img src="img/eu.jpg" alt="profile-image" class="profile"/>
-    		        </div>
-    		        <div class="card-content">
-                    <h2>Ricky_RJ<small>Streamer</small></h3>
-                    <div class="icon-block"><a href="https://www.twitch.tv/ricky_rj"><i class="fa fa-twitch"></i></a><a href="https://twitter.com/orickyrj"> <i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/orickyrj/"> <i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-
-    		</div>
-
-        <div class="col-md-4">
-      		    <div class="card profile-card-3">
-      		        <div class="background-block">
-      		            <img src="img/danimito-bg.jpg" alt="profile-sample1" class="background"/>
-      		        </div>
-      		        <div class="profile-thumb-block">
-      		            <img src="img/danimito.png" alt="profile-image" class="profile"/>
-      		        </div>
-      		        <div class="card-content">
-                      <h2>Danimito1<small>Streamer</small></h3>
-                      <div class="icon-block"><a href="https://www.twitch.tv/danimito1"><i class="fa fa-twitch"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-instagram"></i></a></div>
-                      </div>
-                  </div>
-
-      		</div>
-
-          <div class="col-md-4">
-        		    <div class="card profile-card-3">
-        		        <div class="background-block">
-        		            <img src="img/chris-bg.jpg" alt="profile-sample1" class="background"/>
-        		        </div>
-        		        <div class="profile-thumb-block">
-        		            <img src="img/chris.png" alt="profile-image" class="profile"/>
-        		        </div>
-        		        <div class="card-content">
-                        <h2>O_Chris<small>Streamer</small></h3>
-                        <div class="icon-block"><a href="https://www.twitch.tv/o__chris"><i class="fa fa-twitch"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-
+    <section class="caixa"> <!--Inicio da seção mais streamers-->
+      <div class="container">
+        <div class="wrap">
+          <div class="box seven">
+        		<div class="date">
+        			<h4>FORTINITE</h4>
         		</div>
-    </div>
-  </section>
+        		<h1>GUIGO_HC</h1>
+        		<div class="poster p6">
+              <a href="#" class="stretched-link">
+                <img src="img/guigo.png" alt="">
+              </a>
+        		</div>
+        	</div>
 
+        	<div class="box eight">
+        		<div class="date">
+        			<h4>MIR4</h4>
+        		</div>
+        		<h1>AMANDANOXI</h1>
+        		<div class="poster p7">
+              <a href="#" class="stretched-link">
+                <img src="img/nox.png" alt="">
+              </a>
+        		</div>
+        	</div>
+
+        	<div class="box nine">
+        		<div class="date">
+        			<h4>6/29/18</h4>
+        		</div>
+        		<h1>UNFORGETTABLE</h1>
+        		<div class="poster p8">
+        			<h4>L</h4>
+        		</div>
+        	</div>
+
+        	<div class="box ten">
+        		<div class="date">
+        			<h4>6/29/18</h4>
+        		</div>
+        		<h1>AMAZING</h1>
+        		<div class="poster p9">
+        			<h4>J</h4>
+        		</div>
+        	</div>
+
+        	<div class="box eleven">
+        		<div class="date">
+        			<h4>6/29/18</h4>
+        		</div>
+        		<h1>LOVE</h1>
+        		<div class="poster p10">
+        			<h4>H</h4>
+        		</div>
+        	</div>
+        </div>
+      </div>
+    </section> <!--Fim da seção mais streamers-->
+
+    <section class="caixa"> <!--Inicio da seção mais streamers 2-->
+      <div class="container">
+        <div class="wrap">
+          <div class="box tlv">
+              <div class="date">
+                <h4>6/29/18</h4>
+              </div>
+              <h1>LEARN</h1>
+              <div class="poster p11">
+                <h4>W</h4>
+              </div>
+            </div>
+
+            <div class="box thirteen">
+              <div class="date">
+                <h4>6/29/18</h4>
+              </div>
+              <h1>YEP</h1>
+              <div class="poster p12">
+                <h4>S</h4>
+              </div>
+            </div>
+
+            <div class="box ftn">
+              <div class="date">
+                <h4>6/29/18</h4>
+              </div>
+              <h1>SMILE</h1>
+              <div class="poster p13">
+                <h4>E</h4>
+              </div>
+            </div>
+
+            <div class="box fith">
+              <div class="date">
+                <h4>6/29/18</h4>
+              </div>
+              <h1>CODE</h1>
+              <div class="poster p14">
+                <h4>R</h4>
+              </div>
+            </div>
+
+            <div class="box sith">
+              <div class="date">
+                <h4>6/29/18</h4>
+              </div>
+              <h1>CARDS</h1>
+              <div class="poster p15">
+                <h4>U</h4>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section> <!--Fim da seção mais streamers 2-->
+
+    <section class="caixa">
+      <div class="container">
+        <div class="wrap">
+          <div class="box sevth">
+        		<div class="date">
+        			<h4>6/29/18</h4>
+        		</div>
+        		<h1>FLEXBOX</h1>
+        		<div class="poster p16">
+        			<h4>A</h4>
+        		</div>
+        	</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p>
+              <a href="#">Home</a>
+              <a href="#">Lives</a>
+              <a href="#">Discord</a>
+            </p>
+          </div>
+          <div class="col-md-4 d-flex justify-content-end">
+            <a href="" class="btn btn-outline-dark">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
   </body>
