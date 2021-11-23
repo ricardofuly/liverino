@@ -1,147 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt_br" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
-    <title>Liverino</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <title>Liverino</title>
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.png" alt="Logo" width="90px">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#mynavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="lives.html">Lives</a>
-            </li>
-            <li class="nav-item" style="position:absolute;right:20px;">
-              <a class="nav-link disabled" href="#">Discord</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <header> <!-- inicio Cabecalho -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo" width="142">
+          </a>
 
-    <div class="container live-display">
-      <div class="container-fluid">
-        <div class="row row-cols-1">
-          <div class="col-8 titulo">
-            <h2>STREAMERS AO VIVO</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row row-cols-2">
-        <div class="col streamer1 ">
-          <iframe src="https://player.twitch.tv/?channel=ricky_rj&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="292" width="450"></iframe>
-        </div>
-        <div class="col lives2">
-          <iframe src="https://player.twitch.tv/?channel=o_chris&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="292" width="450"></iframe>
-        </div>
-        <div class="col lives3">
-          <iframe src="https://player.twitch.tv/?channel=danimito1&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="292" width="450"></iframe>
-        </div>
-        <div class="col lives4">
-          <iframe src="https://player.twitch.tv/?channel=hellequinm&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="292" width="450"></iframe>
-        </div>
-      </div>
-    </div>
+          <button class="navbar-toggler" data-toggler="collapse" data-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div class="container-fluid streamers">
-      <div class="col-8 titulo">
-          <h2>CONHEÇA MAIS STREAMERS</h2>
-      </div>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link disabled" href="#">Lives</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-light ml-4" href="#">Discord</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header> <!--/fim Cabecalho -->
 
-      <div class="row">
-        <div class="column streamer1">
-          <div class="card" style="width:400px">
-              <img class="card-img-top" src="img/eu.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">Ricky_RJ</h4>
-                <p class="card-text">Venha Conhecer!</p>
-                <a href="https://www.twitch.tv/ricky_rj" class="btn btn-primary stretched-link">Seguir!</a>
-            </div>
-          </div>
-        </div>
-        <div class="column streamer2">
-          <div class="card" style="width:400px">
-              <img class="card-img-top" src="img/danimito.png" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">DaniMito1</h4>
-                <p class="card-text">Venha Conhecer!</p>
-                <a href="https://www.twitch.tv/danimito1" class="btn btn-primary stretched-link">Seguir!</a>
-            </div>
-          </div>
-        </div>
-        <div class="column streamer3">
-          <div class="card" style="width:400px">
-              <img class="card-img-top" src="img/chris.png" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">O_Chris</h4>
-                <p class="card-text">Venha Conhecer!</p>
-                <a href="https://www.twitch.tv/o__chris" class="btn btn-primary stretched-link">Seguir!</a>
-            </div>
-          </div>
-        </div>
-        <div class="column streamer4">
-          <div class="card" style="width:400px">
-              <img class="card-img-top" src="img/helle.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">Hellequinm</h4>
-                <p class="card-text">Venha Conhecer!</p>
-                <a href="https://www.twitch.tv/hellequinm" class="btn btn-primary stretched-link">See Profile</a>
-            </div>
-          </div>
-        </div>
+    <section id="home"> <!--Inicio da seção home-->
+      <div class="container">
         <div class="row">
-          <div class="column streamer5">
-            <div class="card" style="width:400px">
-                <img class="card-img-top" src="img/5.jpeg" alt="Card image">
-              <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">Some example text.</p>
-                  <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-              </div>
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h1 class="display-4">As Melhores Lives</h1>
+              <p>
+                Faça parte dessa maravilhosa comunidade, com as melhores lives que você pode encontrar pela internet.
+              </p>
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu E-mail" class="form-control">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-danger">Assine</button>
+                  </div>
+                </div>
+              </form>
+
+                <p>Disponível para
+                  <a href="" class="btn btn-outline-light">
+                    <i class="fab fa-android fa-lg"></i>
+                  </a>
+                  <a href="" class="btn btn-outline-light">
+                    <i class="fab fa-apple"></i>
+                  </a>
+                </p>
             </div>
           </div>
-          <div class="column streamer6">
-            <div class="card" style="width:400px">
-                <img class="card-img-top" src="img/6.jpeg" alt="Card image">
-              <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">Some example text.</p>
-                  <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-              </div>
+          <div class="col-md-6 d-none d-md-block">
+            <iframe class="responsive-iframe" src="https://player.twitch.tv/?channel=ricky_rj&parent=ricardofuly.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="425" width="518"></iframe>
+          </div>
+        </div>
+      </div>
+    </section> <!--Fim da seção home-->
+
+    <section class="caixa"> <!--Inicio da seção mais streamers-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Pessoas que você deveria conhecer!</h2>
+              <p>
+                Conheça pessoas legais, com a nossa plataforma, não tenha vergonha, basta clicar e conversar.
+              </p>
+              <a href="#" class="btn btn-danger">Seguir</a>
             </div>
           </div>
-          <div class="column streamer7">
-            <div class="card" style="width:400px">
-                <img class="card-img-top" src="img/7.jpeg" alt="Card image">
-              <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">Some example text.</p>
-                  <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-              </div>
+          <div class="col-ms-6">
+            <iframe class="responsive-iframe" src="https://player.twitch.tv/?channel=o_chris&parent=ricardofuly.github.io&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="425" width="518"></iframe>
+          </div>
+        </div>
+      </div>
+    </section> <!--Fim da seção mais streamers-->
+
+    <section class="caixa"> <!--Inicio da seção mais streamers 2-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <iframe class="responsive-iframe"  src="https://player.twitch.tv/?channel=danimito1&parent=ricardofuly.github.io&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="425" width="518"></iframe>
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Já conhece esse streamer?</h2>
+              <p>
+                Segue ae, ele é legal você não vai se arrepender!
+              </p>
+              <a href="#" class="btn btn-danger">Seguir</a>
             </div>
           </div>
         </div>
+      </div>
+    </section> <!--Fim da seção mais streamers 2-->
 
+    <section class="caixa">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <iframe class="responsive-iframe" src="https://player.twitch.tv/?channel=hellequinm&parent=ricardofuly.github.io&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="285" width="370"></iframe>
+            <h4>Hellequinm</h4>
+            <p>
+              Streamer de variedades, com conteúdos fixos em MMO, FPS e outros gêneros. Somos uma pequena comunidade, mas muito acolhedora, chega mais e sinta-se em casa!Lives Seg, Qua e Sextas a partir das 19h. Ocasionalmente aos Sábados
+            </p>
+          </div>
+          <div class="col-md-4">
+            <iframe class="responsive-iframe" src="https://player.twitch.tv/?channel=guigo_hc&parent=www.example.com&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="285" width="370"></iframe>
+            <h4>Guigo_HC</h4>
+            <p>
+              Oieeee... Estou aqui pra jogar uns joguinhos bem legais, vem se divertir comigo? Me segue nas redes pra saber quando vai ter Live, sempre aviso por la. ^^
+            </p>
+          </div>
+          <div class="col-md-4">
+            <iframe src="https://player.twitch.tv/?channel=polaroidf&parent=www.example.com&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="285" width="370"></iframe>
+            <h4>Polaroidf</h4>
+            <p>
+              Normalmente, podes encontrar-me a escrever no meu blog Entre Linhas mas às vezes, estou aqui a descontrair e divertir-me. Amante de arte e nas horas vagas, adoro jogar!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <footer class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p>
+              <a href="#">Home</a>
+              <a href="#">Lives</a>
+              <a href="#">Discord</a>
+            </p>
+          </div>
+          <div class="col-md-4 d-flex justify-content-end">
+            <a href="" class="btn btn-outline-dark">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-    </div>
 
   </body>
 
